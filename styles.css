@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+    background-color: rgba(240, 239, 239, 0.674);
+}
+#logo-sec-part {
+    border-bottom: 1px solid #333;
+}
+#navBar {
+    display: flex;
+    /* background-color: blue; */
+    height: 4rem;
+    align-items: center;
+    columns: 2;
+    border-bottom: 30px solid #333;
+}
+#logo-section {
+    width: 33%;
+    /* background-color: yellow; */
+    padding: 0.6rem;
+    color: #333;
+    font-size: 2rem;
+    font-weight: 700;
+}
+#button-section {
+    width: 100%;
+    /* background-color: red; */
+    justify-content: flex-end;
+    display: flex;
+
+}
+#button-section button{
+    height: 1.rem;
+    border-radius: 2px;
+    margin-right: 2rem;
+    border: 1px solid #333;
+    color: white;
+    background-color: #333;
+    padding: 0.3rem 1.2rem;
+}
+#button-section button:hover{
+    height: 1.rem;
+    border-radius: 2px;
+    margin-right: 2rem;
+    border: 1px solid #333;
+    color: #333;
+    background-color: white;
+    padding: 0.3rem 1.2rem;
+}
+#body-section {
+    /* background-color: green; */
+    display: flex;
+    columns: 4;
+    width: 100%;
+}
+#left-side-bar {
+    width: 60%;
+    /* background-color: red; */
+}
+#left-side-bar div{
+    width: 100%;
+    /* background-color: white; */
+    border: 1px solid #333;
+    height: 2.4rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 0.16rem;
+    background-color: #333;
+    color: white;
+
+}
+#left-side-bar div:hover{
+    width: 100%;
+    /* background-color: white; */
+    border: 1px solid #333;
+    height: 2.4rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 0.16rem;
+    background-color: white;
+    color: #333;
+    font-size: 1.5rem;
+    transition-duration: 200ms;
+    font-weight: bold;
+
+}
+#left-question-bar {
+    width: 100%;
+    background-color: #a2a5a57f;
+    margin-left: 0.16rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+}
+#left-question-bar div{
+    /* width: 10%; */
+    background-color: #90929289;
+    margin: 0.46rem;
+    height: 8rem;
+    border-radius:5px;
+}
+#right-question-bar {
+    width: 100%;
+    background-color: #a2a5a57f;
+    margin-left: 0.16rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+    /* border: 1px solid A2A5A5; */
+}
+#right-question-bar div{
+        margin: 0.46rem;
+        background-color: #90929289;
+        margin: 0.46rem;
+        height: 8rem;
+        border-radius:5px;
+}
+#search-section {
+    width: 50%;
+    background-color: #a2a5a57f;
+    margin-left: 0.16rem;
+    border: 1px solid #90929289;
+}
+#search-section form{
+    /* width: 60%; */
+    /* background-color: blue; */
+    margin: 0 auto;
+    display: flex;justify-content: center;
+    padding: 0.16rem;
+}
+#search-section form input{
+    width: 60%;
+}
+#body-upper {
+    /* width: 100%; */
+    padding: 1rem;
+}
+#search-box {
+    /* width: 100%; */
+    /* background-color: grey; */
+    display: flex;
+    /* columns: 2; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.66rem;
+}
+
+#search-box input{
+    width:60%;
+    margin-right: 0.5rem;
+    /* background-color: grey; */
+    height: 1.7rem;
+    border: 1px solid black;
+    /* margin-top: 05rem; */
+    /* padding: 0 15rem; */
+}
+#search-box button{
+   
+    height: 2rem;
+    padding: 0 1rem;
+    border: 1px solid black;
+    border-radius: px;
+}
