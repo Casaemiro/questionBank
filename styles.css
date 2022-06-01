@@ -1,6 +1,7 @@
 body{
     font-family: 'Josefin Sans', sans-serif;
     margin: 0;
+    color: rgb(45, 44, 44);
     background-color: rgba(240, 239, 239, 0.674);
 }
 #logo-sec-part {
@@ -12,7 +13,7 @@ body{
     height: 4rem;
     align-items: center;
     columns: 2;
-    /* border-bottom: 30px solid #333; */
+    background-color:rgb(152, 152, 152);
 }
 #logo-section {
     width: 33%;
@@ -27,25 +28,21 @@ body{
     /* background-color: red; */
     justify-content: flex-end;
     display: flex;
+    margin-right: 2rem;
 
 }
 #button-section button{
     height: 1.rem;
     border-radius: 2px;
-    margin-right: 2rem;
+    margin-right: 1rem;
     border: 1px solid #333;
     color: white;
     background-color: #333;
     padding: 0.3rem 1.2rem;
 }
 #button-section button:hover{
-    height: 1.rem;
-    border-radius: 2px;
-    margin-right: 2rem;
-    border: 1px solid #333;
     color: #333;
     background-color: white;
-    padding: 0.3rem 1.2rem;
 }
 #body-section {
     /* background-color: green; */
@@ -80,7 +77,7 @@ body{
     justify-content: center;
     display: flex;
     margin-bottom: 0.16rem;
-    background-color: white;
+    background-color: rgba(240, 239, 239, 0.674);
     color: #333;
     font-size: 1.08rem;
     transition-duration: 150ms;
@@ -103,6 +100,25 @@ body{
     /* height: 8rem; */
     border-radius:5px;
     padding: 1rem;
+}
+label {
+    line-height: 1.5rem;
+}
+#left-question-bar div p{
+    /* color: yellow; */
+    line-height: 1.5rem;
+    /* transition-duration: 0.5s; */
+}#left-question-bar div p:hover{
+    color: black;
+    transition-duration: 0.5s;
+}
+#right-question-bar div p{
+    /* color: yellow; */
+    line-height: 1.5rem;
+    /* transition-duration: 0.5s; */
+}#right-question-bar div p:hover{
+    color: black;
+    transition-duration: 0.5s;
 }
 #right-question-bar {
     width: 100%;
@@ -161,10 +177,9 @@ body{
     color: white;
     display: flex;
     flex-direction: row;
-    /* padding: 1rem; */
     align-items: center;
-    /* padding-left: 1rem; */
     justify-content: flex-end;
+    font-size: .8rem;
 }
 #nav-two div{
     padding-right: 1rem;
@@ -231,13 +246,18 @@ body{
     padding: -20px;
 }
 #comment {
-    width: 100%;
-    /* background-color:blue; */
+    width: 90%;
+    background-color:rgb(238, 238, 238);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 70vh;
+    margin-left:5%;
+    margin-right:5%;
+    margin-top:5%;
+    margin-bottom:7%;
+    border-radius: 10px;
 }
 #comment1 {
     width: 20%;
