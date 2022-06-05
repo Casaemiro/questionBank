@@ -8,17 +8,25 @@ body{
 #navBar {
     display: flex;
     /* background-color: blue; */
-    height: 4rem;
+    height: 5rem;
     align-items: center;
     columns: 2;
-    border-bottom: 30px solid #333;
+    border-bottom: 1px solid #333;
+}
+#navBar2 {
+    display: flex;
+    background-color: #333;
+    height: 2rem;
+    align-items: center;
+    columns: 2;
+    border-bottom: 1px solid #333;
 }
 #logo-section {
     width: 33%;
     /* background-color: yellow; */
-    padding: 0.6rem;
+    padding: 2rem;
     color: #333;
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 700;
 }
 #button-section {
@@ -51,9 +59,10 @@ body{
     display: flex;
     columns: 4;
     width: 100%;
+    margin-top: 5%;
 }
 #left-side-bar {
-    width: 60%;
+    width: 40%;
     /* background-color: red; */
 }
 #left-side-bar div{
@@ -97,7 +106,7 @@ body{
     /* width: 10%; */
     background-color: #90929289;
     margin: 0.46rem;
-    height: 8rem;
+    height: 12rem;
     border-radius:5px;
 }
 #right-question-bar {
@@ -113,7 +122,7 @@ body{
         margin: 0.46rem;
         background-color: #90929289;
         margin: 0.46rem;
-        height: 8rem;
+        height: 12rem;
         border-radius:5px;
 }
 #search-section {
