@@ -1,5 +1,7 @@
 body{
+    font-family: 'Josefin Sans', sans-serif;
     margin: 0;
+    color: rgb(45, 44, 44);
     background-color: rgba(240, 239, 239, 0.674);
 }
 #logo-sec-part {
@@ -11,6 +13,7 @@ body{
     height: 5rem;
     align-items: center;
     columns: 2;
+<<<<<<< HEAD
     border-bottom: 1px solid #333;
 }
 #navBar2 {
@@ -20,13 +23,22 @@ body{
     align-items: center;
     columns: 2;
     border-bottom: 1px solid #333;
+=======
+    background-color:rgb(152, 152, 152);
+>>>>>>> bda93dcbe2346515647436e7034aaaee3a72d164
 }
 #logo-section {
     width: 33%;
     /* background-color: yellow; */
+<<<<<<< HEAD
     padding: 2rem;
     color: #333;
     font-size: 3rem;
+=======
+    padding: 1rem;
+    color: #333;
+    font-size: 2.5rem;
+>>>>>>> bda93dcbe2346515647436e7034aaaee3a72d164
     font-weight: 700;
 }
 #button-section {
@@ -34,25 +46,21 @@ body{
     /* background-color: red; */
     justify-content: flex-end;
     display: flex;
+    margin-right: 2rem;
 
 }
 #button-section button{
     height: 1.rem;
     border-radius: 2px;
-    margin-right: 2rem;
+    margin-right: 1rem;
     border: 1px solid #333;
     color: white;
     background-color: #333;
     padding: 0.3rem 1.2rem;
 }
 #button-section button:hover{
-    height: 1.rem;
-    border-radius: 2px;
-    margin-right: 2rem;
-    border: 1px solid #333;
     color: #333;
     background-color: white;
-    padding: 0.3rem 1.2rem;
 }
 #body-section {
     /* background-color: green; */
@@ -63,6 +71,10 @@ body{
 }
 #left-side-bar {
     width: 40%;
+<<<<<<< HEAD
+=======
+    margin-right: 1%;
+>>>>>>> bda93dcbe2346515647436e7034aaaee3a72d164
     /* background-color: red; */
 }
 #left-side-bar div{
@@ -87,10 +99,10 @@ body{
     justify-content: center;
     display: flex;
     margin-bottom: 0.16rem;
-    background-color: white;
+    background-color: rgba(240, 239, 239, 0.674);
     color: #333;
-    font-size: 1.5rem;
-    transition-duration: 200ms;
+    font-size: 1.08rem;
+    transition-duration: 150ms;
     font-weight: bold;
 
 }
@@ -101,13 +113,39 @@ body{
     display: flex;
     flex-direction: column;
     border-radius: 3px;
+    font-family: 'Kanit', sans-serif;
 }
 #left-question-bar div{
     /* width: 10%; */
     background-color: #90929289;
+<<<<<<< HEAD
     margin: 0.46rem;
     height: 12rem;
+=======
+    margin: 0.7rem;
+    /* height: 8rem; */
+>>>>>>> bda93dcbe2346515647436e7034aaaee3a72d164
     border-radius:5px;
+    padding: 1rem;
+}
+label {
+    line-height: 1.5rem;
+}
+#left-question-bar div p{
+    /* color: yellow; */
+    line-height: 1.5rem;
+    /* transition-duration: 0.5s; */
+}#left-question-bar div p:hover{
+    color: black;
+    transition-duration: 0.5s;
+}
+#right-question-bar div p{
+    /* color: yellow; */
+    line-height: 1.5rem;
+    /* transition-duration: 0.5s; */
+}#right-question-bar div p:hover{
+    color: black;
+    transition-duration: 0.5s;
 }
 #right-question-bar {
     width: 100%;
@@ -116,15 +154,27 @@ body{
     display: flex;
     flex-direction: column;
     border-radius: 3px;
+    font-family: 'Kanit', sans-serif;
+    
     /* border: 1px solid A2A5A5; */
 }
 #right-question-bar div{
+<<<<<<< HEAD
         margin: 0.46rem;
         background-color: #90929289;
         margin: 0.46rem;
         height: 12rem;
         border-radius:5px;
+=======
+    /* margin: 1rem; */
+    background-color: #90929289;
+    margin: 0.7rem;
+    /* height: 8rem; */
+    border-radius:5px;
+    padding: 1rem;
+>>>>>>> bda93dcbe2346515647436e7034aaaee3a72d164
 }
+
 #search-section {
     width: 50%;
     background-color: #a2a5a57f;
@@ -152,9 +202,24 @@ body{
     /* columns: 2; */
     justify-content: center;
     align-items: center;
-    margin-top: 0.66rem;
+    margin-top: 1.4rem;
+    margin-bottom: 0.4rem;
 }
+#nav-two {
+    width: 100%;
+    height: 2rem;
+    background-color: #333;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: .8rem;
+}
+#nav-two div{
+    padding-right: 1rem;
 
+}
 #search-box input{
     width:60%;
     margin-right: 0.5rem;
@@ -171,6 +236,97 @@ body{
     border: 1px solid black;
     border-radius: px;
 }
+<<<<<<< HEAD
 
   git config --global user.name "Casaemiro"
  git config --global user.email "silasmagho@gmail.com"
+=======
+#footer-section {
+    background-color: #333;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    /* height: 20vh; */
+    align-items: center;
+    justify-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: white;
+}
+#footer-section div{
+    display: flex;
+    width: 100%;
+    /* background-color: blue; */
+    margin: 0.16rem;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+}
+#bottom-footer {
+    background-color: #333;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    /* text-align: center; */
+    width: 100%;
+    display: flex;
+    padding-bottom: .5rem;
+}
+#middle-footer-left {
+    border-bottom: 1px solid rgb(105, 105, 105);
+}
+#middle-footer-right {
+    border-bottom: 1px solid  rgb(105, 105, 105);
+}
+#exam-session {
+    /* width: 100%; */
+    /* background-color: white; */
+    /* margin: 0.16rem; */
+    font-size: .6rem;
+    padding: -20px;
+}
+#comment {
+    width: 90%;
+    background-color:rgb(238, 238, 238);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    margin-left:5%;
+    margin-right:5%;
+    margin-top:5%;
+    margin-bottom:7%;
+    border-radius: 10px;
+}
+#comment1 {
+    width: 20%;
+    display: flex;
+}
+#comment2 {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: yellow; */
+    height: 60%;
+}
+#comment2 form{
+    width: 100%;
+    /* background-color: green; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    
+}
+#comment2 form input{
+    width: 90%;
+    height: 100%;
+}
+#comment3 {
+    width: 20%;
+    display: flex;
+}
+>>>>>>> bda93dcbe2346515647436e7034aaaee3a72d164
